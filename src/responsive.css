@@ -1,0 +1,139 @@
+@media (max-width: 992px) and (min-width: 320px){
+/* SMALL HEADER SECTION START */
+.small-header a{
+    display: none;
+}
+.small-header p{
+    float: left !important;
+}
+/* SMALL HEADER SECTION END */
+/* BASE HEADER SECTION START */
+.base-header ul{
+    padding-left: 0px;
+}
+.base-header li{
+    display: none;
+}
+.base-header ul li:nth-last-child(1){
+    color: black;
+    display: block;
+    float: right;
+    padding: 8px 0px;
+    font-size: 1.25rem;
+}
+.base-header.display-options ul{
+    position: relative;
+    float: none !important;
+    display: block !important;
+}
+.banner-img{
+    height: 550px;
+    object-fit: cover;
+}
+.banner-content{
+    top: 20%;
+}
+.display-options ul li{
+    display: block !important;
+    float: none;
+    text-align: left;
+}
+
+.display-options li:nth-last-child(1){
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
+
+/* BASE HEADER SECTION END */
+/* BANNER SECTION START */
+.banner-title{
+    font-size: 31.5px !important;
+}
+.banner-description{
+    font-size: 17.5px !important;
+}
+
+/* BANNER SECTION END */
+/* BUSINESS SECTION START */
+.business-content{
+  display: block  !important;
+}
+.business-solutions,.business-img{
+    width: 100% !important;
+}
+.business-img{
+    padding: 20px 0px 0px 0px;
+}
+/* BUSINESS SECTION END */
+
+/* SERVICE SECTION START */
+
+.individual-services{
+    margin-bottom: 0px !important;
+}
+/* SERVICE SECTION END */
+
+/* APP SECTION START */
+.service,.app-section,.works,.latest-news,.reviews,.team-members,.footer{
+    padding: 55px 0px;
+}
+.business h2,.service h2,.app-section h2,.works h2, .latest-news h2,.reviews h2,.team-members h2 {
+    font-size: 1.5441em !important;
+}
+.service-content p, .app-section p, .works-content p, .latest-news p, .reviews p, .team-members p{
+    font-size: 1.1em;
+}
+.download-btn{
+    display: block !important;
+}
+.download-section{
+    display: inline-block !important;
+    margin-right: .5rem;
+    margin-bottom: 15px;
+}
+/* APP SECTION END */
+
+/* QUALITY WORKS SECTION START */
+.worksbtn:not(:last-child){
+    margin-bottom: 10px !important;
+}
+.works-row{
+    display: block !important ;
+}
+.individual-works{
+    padding-right: 0px !important;
+    padding-bottom: 1rem;
+}
+.work-environments{
+    margin-bottom: 20px !important;
+}
+
+/* QUALITY WORKS SECTION END */
+
+/* LATEST NES SECTION START */
+.individual-news:not(:last-child),.individual-reviews:not(:last-child),.member-info:not(:last-child),.consulting-info{
+    margin-bottom: 20px !important;
+}
+
+/* LATEST NEwS SECTION END */
+
+/* FOOTER SECTION START */
+.footer-section{
+    flex-direction: column !important
+}
+/* FOOTER SECTION END */
+
+/* COPY RIGHTS SECTION START */
+.social-link{
+    display: none;
+}
+/* COPY RIGHTS SECTION END */
+
+}
+@media (max-width: 575px) and (min-width: 320px){
+    .banner-title{
+       font-size: 2.21rem
+    }
+}
+
